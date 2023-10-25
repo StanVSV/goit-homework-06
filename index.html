@@ -49,6 +49,11 @@
                 </li>
             </ul>
         </address>
+        <button type="button" class="menu-open-btn">
+            <svg class="menu-btn-icon" width="24" heigh="24">
+                <use href="./images/icons.svg#icon-heroicons-solid_menu"></use>
+            </svg>
+        </button>
         </div>
     </header>
 
@@ -115,6 +120,7 @@
             <ul class="team-list">
                 <li class="team-item">
                     <img 
+                    srcset="./images/marck-2x.jpeg 2x"
                     src="./images/mark_guerrero.jpg" 
                     width="264" 
                     height="260" 
@@ -162,6 +168,7 @@
                 </li>
                 <li class="team-item">
                     <img 
+                    srcset="./images/tom-2x.jpeg 2x"
                     src="./images/tom_ford.jpg" 
                     width="264" 
                     height="260" 
@@ -206,7 +213,8 @@
                     </div>
                 </li>
                 <li class="team-item">
-                    <img 
+                    <img
+                    srcset="./images/camila-2x.jpeg 2x" 
                     src="./images/camila_garcia.jpg" 
                     width="264" 
                     height="260" 
@@ -250,6 +258,7 @@
                 </li>
                 <li class="team-item">
                     <img 
+                    srcset="./images/daniel-2x.jpeg 2x"
                     src="./images/daniel_wilson.jpg" 
                     width="264" 
                     height="260" 
@@ -295,14 +304,19 @@
             </div>
         </section>
 
-
         <section class="our-portfolio">
             <div class="container">
             <h2 class="portfolio-title">Our Portfolio</h2>
             <ul class="portfolio-list">
                 <li class="portfolio-item">
                     <div class="portfolio-cover-wrap">
-                    <img src="./images/our-portfolio-1.jpeg" 
+                        <!--<picture>
+                            <source srcset="./images/banking-disck-1x-min.jpeg 1x, banking-disck-2x-min.jpeg 2x," media="(min-width: 1158px)">
+                            <source srcset="./images/banking-tab-1x-min.jpeg 1x, banking-tab-2x-min.jpeg 2x," media="(min-width: 768px)">
+                            <source srcset="./images/banking-mob-1x-min.jpeg 1x, banking-mob-2x-min.jpeg 2x," media="(max-width: 767px)">
+                        </picture>-->
+                    <img 
+                    src="./images/our-portfolio-1.jpeg" 
                     width="360"
                     height="300"
                     alt="Banking App"
@@ -316,7 +330,8 @@
                 </li>
                 <li class="portfolio-item">
                     <div class="portfolio-cover-wrap">
-                    <img src="./images/our-portfolio-2.jpeg" 
+                    <img 
+                    src="./images/our-portfolio-2.jpeg" 
                     width="360"
                     height="300"
                     alt="Cashless Payment"
@@ -330,7 +345,8 @@
                 </li>
                 <li class="portfolio-item">
                     <div class="portfolio-cover-wrap">
-                    <img src="./images/our-portfolio-3.jpeg" 
+                    <img 
+                    src="./images/our-portfolio-3.jpeg" 
                     width="360"
                     height="300"
                     alt="Meditation App"
@@ -344,7 +360,8 @@
                 </li>
                 <li class="portfolio-item">
                     <div class="portfolio-cover-wrap">
-                    <img src="./images/our-portfolio-4.jpeg" 
+                    <img 
+                    src="./images/our-portfolio-4.jpeg" 
                     width="360"
                     height="300"
                     alt="Taxi Service"
@@ -358,7 +375,8 @@
                 </li>
                 <li class="portfolio-item">
                     <div class="portfolio-cover-wrap">
-                    <img src="./images/our-portfolio-5.jpeg" 
+                    <img 
+                    src="./images/our-portfolio-5.jpeg" 
                     width="360"
                     height="300"
                     alt="Screen Illustrations"
@@ -372,7 +390,8 @@
                 </li>
                 <li class="portfolio-item">
                     <div class="portfolio-cover-wrap">
-                    <img src="./images/our-portfolio-6.jpeg" 
+                    <img 
+                    src="./images/our-portfolio-6.jpeg" 
                     width="360"
                     height="300"
                     alt="Online Courses"
@@ -388,7 +407,7 @@
             </div>
         </section>
     </main>
-
+<!--
     <footer class="footer">
         <div class="container footer-container">
         <div class="footer-container-logo">
@@ -448,9 +467,9 @@
                     </form>
                 </div>
         </div>
-    </footer>
+    </footer>-->
         <!--is-open-->
-    <div class="backdrop is-open">
+    <div class="backdrop">
         <div class="modal">
             <button type="button" class="modal-btn">
                 <svg class="modal-btn-icon" width="8" height="8">

@@ -1087,8 +1087,6 @@ span {
     url(../images/Dark-bg-tablet.jpeg);
     }
 
-    @media (min-resolution: 192dpi) {
-
     .hero {
         background-image: linear-gradient(rgba(46, 47, 66, 0.70), 
                         rgba(46, 47, 66, 0.70)), 
@@ -1100,7 +1098,6 @@ span {
         line-height: 1.07;
         margin: 0 auto 36px;
         }
-    }
 }
 
 
@@ -1151,6 +1148,10 @@ span {
 
     .our-team {
         padding: 120px 0;
+    }
+
+    .team-item {
+            width: calc((100% - 72px) / 4);
     }
 
     .our-portfolio {
